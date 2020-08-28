@@ -26,9 +26,7 @@ namespace WheelsWorld
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/main.css",
-                      "~/Content/site.css"));
+                      "~/Content/main.css"));
         }
     }
 }
